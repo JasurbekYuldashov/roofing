@@ -5,15 +5,32 @@ import Theme from '../../constants/theme';
 import {StyleSheet, View} from 'react-native';
 
 const Button = props => {
-  const {title, containerStyle} = props;
+  const {title, containerStyle, variant} = props;
   return (
     <View style={[{width: '100%'}, containerStyle]}>
-      <AnimatedButton style={styles.button} {...props}>
+      <AnimatedButton
+        style={[
+          styles.button,
+          {
+            backgroundColor:
+              variant === 'primary'
+                ? Theme.primaryColor
+                : variant === 'secondary'
+                ? Theme.secondaryColor
+                : variant === 'outline'
+                ? 'transparent'
+                : Theme.secondaryColor,
+          },
+        ]}
+        {...props}>
         <ButtonTitle
           style={{
             textAlign: 'center',
             fontFamily: Theme.fontBold,
-            color: Theme.textWhiteColor,
+            color:
+              variant === 'outline'
+                ? Theme.secondaryColor
+                : Theme.textWhiteColor,
           }}>
           {title}
         </ButtonTitle>

@@ -3,7 +3,7 @@ const Theme = {
   secondaryColor: '#4E73F8',
   whiteColor: '#FFFFFF',
   textDarkColor: '#404D61',
-  textSecondaryColor: '#404D61',
+  textSecondaryColor: '#4E73F8',
   textWhiteColor: '#FFFFFF',
   fontBold: 'DMSans-Bold',
   fontMedium: 'DMSans-Medium',

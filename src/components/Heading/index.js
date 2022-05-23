@@ -8,6 +8,7 @@ const Heading = ({name, size, variant, style}) => {
     <Text
       style={[
         {
+          fontFamily: Theme.fontMedium,
           fontSize:
             size === 'xl'
               ? 64
