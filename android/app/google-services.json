@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808586322604",
+    "project_id": "roofing-fb362",
+    "storage_bucket": "roofing-fb362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808586322604:android:174ef1b2d62d65fb153509",
+        "android_client_info": {
+          "package_name": "com.roofing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808586322604-adjdeg9hg7f1p9i80oo6faebcsqibsbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzqdQSG8OLVrWO4peMSA0RfxCC1Fc78Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808586322604-adjdeg9hg7f1p9i80oo6faebcsqibsbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
